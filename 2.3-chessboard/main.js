@@ -1,40 +1,28 @@
-/*
-Filename: main.js
+/* A function that returns a string representation of a chessboard of a
+ * given size (i.e. height and width).
+ *
+ * character: character with which to represent black squares
+ * size: size of chessboard
+ *
+ * Written as a solution to Ex.2.3:'Chessboard' from Eloquent 
+ * Javascript.
+ */
 
-Description: A Javascript program that uses console.log to print an 8 by 8
-chessboard. 
-
-Solution to the exercise 'Chessboard' from chapter 2 of Eloquent Javscript
-*/
-
-const SIZE_DEF = 8;
-const CHAR_DEF = '#';
-
-let size = Number(prompt('Enter size of chessboard (default 8):'));
-size = size || SIZE_DEF;
-
-let blackSquare= prompt('Enter a character for the black squares (default #):');
-blackSquare = blackSquare || CHAR_DEF;
-
-for (let row = 0; row < size; row++ ) {
-    let string = "";
-    for (let col = 0; col < size; col++ ) {
-        if (row % 2 === 0) {
-            if (col % 2 === 0) {
-               string += ' '; 
+function chessboardStr(character, size) {
+    let board = '';
+    for (let row = 0; row < size; row++) {
+        for (let col = 0; col < size; col++) {
+            if ((row + col) % 2 === 0) {
+                board += ' ';
             }
             else {
-                string += blackSquare; 
+                board += character;
             }
         }
-        else {
-            if (col % 2 === 0) {
-                string += blackSquare;
-            }
-            else {
-                string += ' ';
-            }
-        }
+        board += '\n';
     }
-    console.log(string);
+    return board;
 }
+
+let new_board = chessboardStr('#', 16);
+console.log(new_board);

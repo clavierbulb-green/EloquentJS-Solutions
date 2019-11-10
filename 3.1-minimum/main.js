@@ -1,11 +1,7 @@
 /*
-Filename: main.js
+A function that returns the minimum of two arguments.
 
-Description: A function in Javascript that returns the minimum of two
-arguments.
-
-Solution to the exercise 'Minimum' from chapter 3 of 
-Eloquent Javascript
+Written as a solution to ex.3.1:'Minimum' from Eloquent Javascript.
 */
 
 function min(arg1, arg2) {

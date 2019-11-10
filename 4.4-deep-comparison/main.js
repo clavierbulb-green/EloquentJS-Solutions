@@ -1,10 +1,7 @@
 /*
-Filename: main.js
+A function which makes a deep comparison of two input values.
 
-Description: A function which makes a deep comparison of two input values.
-
-Solution to the exercise 'Deep Comparison' from chapter 4 of Eloquent 
-Javascript
+Solution to ex.4.4:'Deep Comparison' from Eloquent Javascript.
 */
 
 /* returns true if two given values are the same value or are objects with the 

@@ -1,10 +1,7 @@
 /*
-Filename: main.js
+A function that returns true if a given number is even, false otherwise.
 
-Description: A function in Javascript that returns true if a given number is
-even, false otherwise.
-
-Solution to the exercise 'Recursion' from chapter 3 of Eloquent Javascript
+Written as a soluion to the ex.3.2:'Recursion' from Eloquent Javascript.
 */
 
 function isEven(n) {

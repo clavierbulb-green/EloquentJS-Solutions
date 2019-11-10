@@ -1,15 +1,15 @@
 /*
-Filename: main.js
-
-Description: A collection of functions that manipulate list objects (objects
+A collection of functions that manipulate list objects (objects
 made up of listed objects where each object has a reference to the following
-object). The first two functions create a list from a given array, and an
-array from a given list respectively. prepend() creates a new list that adds 
-an element to the front of a list, while nth() returns the element at a given 
-position in a list.
+object). 
 
-Solution to the exercise 'List' from chapter 4 of Eloquent 
-Javascript
+The first two functions create a list from a given array, and an
+array from a given list respectively. 
+
+prepend() creates a new list that adds an element to the front of a list, 
+nth() returns the element at a given position in a list.
+
+Solution to ex.4.3:'List' from Eloquent Javascript.
 */
 
 //populates a list object from a given array

@@ -1,12 +1,12 @@
 /*
-Filename: main.js
+Two functions:
+countChar() -  returns the number of times a given character appears in 
+a given string; 
 
-Description: Two functions in Javascript: the first  - countChar() -  which 
-returns the number of times a given character appears in a given string; 
-the second function - countBs - uses countChar() to return the number of times
-the character 'B' appears in a given string.
+countBs() - returns the number of times the character 'B' appears in a 
+given string.
 
-Solution to the exercise 'Bean Counting' from chapter 3 of Eloquent Javascript
+Written as a solution to ex.3.3:'Bean Counting' from Eloquent Javascript.
 */
 
 function countBs(str) {

@@ -1,12 +1,10 @@
 /*
-Filename: main.js
+Two functions which reverse the contents of a given array:
 
-Description: Two functions which reverse the contents of a given array:
-the first, reverseArray(), returns a new array, while the second,
+The first, reverseArray(), returns a new array, while the second,
 reverseArrayInPlace(), modifies a given array directly.
 
-Solution to the exercise 'Reversing an Array' from chapter 4 of Eloquent 
-Javascript
+Solution to ex.4.2:'Reversing an Array' from Eloquent Javascript.
 */
 
 //returns a new array which has the elements of a given array in reverse order
